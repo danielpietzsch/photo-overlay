@@ -35,3 +35,23 @@ To Do
 Adding the overlay to the `overlayImage` [MapPane](https://developers.google.com/maps/documentation/javascript/reference#MapPanes) and creating another transparent and clickable overlay that sits on the `overlayMouseTarget` pane to receive click events.
 
 The scenario described above is how Google Maps' native markers are implemented. I'd like this custom overlay to work the same way. Currently the whole overlay is added to the `overlayMouseTarget` pane.
+
+License
+-------------
+[WTFPL](http://sam.zoy.org/wtfpl/)
+
+```
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+```
