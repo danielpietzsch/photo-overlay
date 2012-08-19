@@ -8,24 +8,26 @@ A [custom overlay](https://developers.google.com/maps/documentation/javascript/o
 Usage
 -------------
 
-	# The constructor takes 4 parameters:
-	# * map: the map you want the overlay to be on
-	# * position: a lat/lng element
-	# * url: the URL of the thumbnail
-	# * title: text for the title element, displayed when you hover over it (optional)
+	```javascript
+	// The constructor takes 4 parameters:
+	// * map: the map you want the overlay to be on
+	// * position: a lat/lng element
+	// * url: the URL of the thumbnail
+	// * title: text for the title element, displayed when you hover over it (optional)
 	function PhotoOverlay(map, position, photoUrl, title)
 
-	# Example initialization using a photo received from the Flickr API
-	# This makes the overlay appear on the map
+	// Example initialization using a photo received from the Flickr API
+	// This makes the overlay appear on the map
 	var photoOverlay = new PhotoOverlay(map, new google.maps.LatLng(photo.latitude, photo.longitude), photo.url_sq, photo.title)
 
-	# You can add a listener to the click event of the overlay
+	// You can add a listener to the click event of the overlay
 	google.maps.event.addListener(photoOverlay, 'click', function() {
-		# Do something, like open an infowindow for example.
+		// Do something, like open an infowindow for example.
 	})
 
-	# Remove the overlay from the map like this:
+	// Remove the overlay from the map like this:
 	photoOverlay.setMap(null)
+	```
 
 To Do
 -------------
